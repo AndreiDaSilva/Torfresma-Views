@@ -1,0 +1,26 @@
+.footer-post h4{
+    padding-top: 1rem;
+    font-family: Teko;
+}
+
+.footer-post h4::first-letter{
+    color: #c0ff00;
+    text-transform: uppercase;
+}
+
+.post{
+    width: 1000px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.home h2::first-letter{
+    color: #c0ff00;
+    text-transform: uppercase;
+}
+
+.home h2{
+    text-align: center;
+}

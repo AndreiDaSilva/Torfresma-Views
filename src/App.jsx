@@ -1,11 +1,15 @@
 import './App.css'
-
+import { Outlet } from 'react-router-dom'
+import NavBar from './components/NavBar'
 function App() {
 
   return (
-    <h1>
-      Torfresma
-    </h1>
+    <div className="App">
+      <NavBar />
+      <div className="container">
+        <Outlet/>
+      </div>
+    </div>
   )
 }
 
